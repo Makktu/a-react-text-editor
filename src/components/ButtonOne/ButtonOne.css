@@ -1,0 +1,11 @@
+button {
+    background-color: rgb(50, 53, 53);
+    color: white;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aqua;
+    transition: 2s ease;
+}
