@@ -9,3 +9,9 @@ button:hover {
     background-color: aqua;
     transition: 2s ease;
 }
+
+.light-mode button {
+    background-color: rgb(243, 239, 235);
+    color: rgb(19, 17, 17);
+    transition: 1s ease;
+}

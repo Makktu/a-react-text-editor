@@ -1,4 +1,4 @@
-// import ButtonOne from "./ButtonOne/ButtonOne";
+import Buttons from "./buttons/Buttons";
 
 import "./Component.css";
 
@@ -10,11 +10,8 @@ function Component() {
         <div>
             <div className="container">
                 <div className="editor-frame">
-                    <div className="menu-items">
-                        <button>MyPad</button>
-                        <button id="file-btn">File</button>
-                        <button>Edit</button>
-                        <button id="light-dark-btn">Light Mode</button>
+                    <div>
+                        <Buttons />
                     </div>
                     <div className="text-entry">
                         <textarea
