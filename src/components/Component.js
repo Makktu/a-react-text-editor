@@ -1,4 +1,5 @@
 import Buttons from "./buttons/Buttons";
+// import UnorderedList from "./unorderedlist/UnorderedList";
 
 import "./Component.css";
 
@@ -13,6 +14,9 @@ function Component() {
                     <div>
                         <Buttons />
                     </div>
+                    {/* <div>
+                        <UnorderedList />
+                    </div> */}
                     <div className="text-entry">
                         <textarea
                             className="text-entry-area"
