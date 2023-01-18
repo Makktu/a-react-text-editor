@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
-
 import "./Buttons.css";
 
-const Buttons = () => {
+export default Buttons = () => {
     const [lightOrDark, setLightOrDark] = useState("black");
     const click = (lightOrDark) => {
         setLightOrDark(lightOrDark);
@@ -25,5 +24,3 @@ const Buttons = () => {
         </div>
     );
 };
-
-export default Buttons;
